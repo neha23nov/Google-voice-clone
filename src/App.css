@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 100px;
+  width: 272px;
+  height: 92px;
+}
+
+.dark-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 6px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #4285f4;
+}
+
+.sidebar li:hover {
+  text-decoration: underline;
+}
